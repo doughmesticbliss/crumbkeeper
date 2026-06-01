@@ -13,3 +13,5 @@ from app.models.capacity import BakeryCapacityProfile, CategoryCapacity, TimeBlo
 from app.models.forecast import DemandForecast, SalesTrendSnapshot, GrowthTarget, InventoryProjection, ForecastAlert
 from app.models.planner import ProductionPlan, ProductionConflict, ProductionRecommendation
 from app.models.today import TodayTask, TodayAlert
+from app.models.market import MarketEvent, MarketInventoryPlan, EventForecast, SellThroughRecord, PackagingPlan
+from app.models.analytics import ProductionAnalytics, CapacityAnalytics, ProductAnalytics, EventAnalytics, WorkloadAnalytics
